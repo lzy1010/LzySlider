@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364BF583208E31B200E43212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF582208E31B200E43212 /* AppDelegate.m */; };
+		364BF586208E31B200E43212 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF585208E31B200E43212 /* ViewController.m */; };
+		364BF589208E31B200E43212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364BF587208E31B200E43212 /* Main.storyboard */; };
+		364BF58B208E31B200E43212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364BF58A208E31B200E43212 /* Assets.xcassets */; };
+		364BF58E208E31B200E43212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364BF58C208E31B200E43212 /* LaunchScreen.storyboard */; };
+		364BF591208E31B200E43212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF590208E31B200E43212 /* main.m */; };
+		364BF59B208E31B200E43212 /* LzySliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF59A208E31B200E43212 /* LzySliderTests.m */; };
+		364BF5A6208E31B200E43212 /* LzySliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5A5208E31B200E43212 /* LzySliderUITests.m */; };
+		364BF5B5208E348A00E43212 /* LzySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5B4208E348A00E43212 /* LzySlider.m */; };
+		364BF5B8208E37B800E43212 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5B6208E37B800E43212 /* UIImage+Helper.m */; };
+		364BF5BE208E3A8200E43212 /* ThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5BB208E3A8200E43212 /* ThumbView.m */; };
+		364BF5BF208E3A8200E43212 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5BD208E3A8200E43212 /* TriangleView.m */; };
+		364BF5C4208E3B6C00E43212 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5C3208E3B6C00E43212 /* UIColor+HexString.m */; };
+		8C61CBA00A706D7443E273A7 /* Pods_LzySlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902D3E63F9922838B00F72B9 /* Pods_LzySlider.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		364BF597208E31B200E43212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364BF576208E31B200E43212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364BF57D208E31B200E43212;
+			remoteInfo = LzySlider;
+		};
+		364BF5A2208E31B200E43212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364BF576208E31B200E43212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364BF57D208E31B200E43212;
+			remoteInfo = LzySlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		364BF57E208E31B200E43212 /* LzySlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LzySlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364BF581208E31B200E43212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		364BF582208E31B200E43212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		364BF584208E31B200E43212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		364BF585208E31B200E43212 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		364BF588208E31B200E43212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		364BF58A208E31B200E43212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		364BF58D208E31B200E43212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		364BF58F208E31B200E43212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364BF590208E31B200E43212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		364BF596208E31B200E43212 /* LzySliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LzySliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364BF59A208E31B200E43212 /* LzySliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzySliderTests.m; sourceTree = "<group>"; };
+		364BF59C208E31B200E43212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364BF5A1208E31B200E43212 /* LzySliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LzySliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364BF5A5208E31B200E43212 /* LzySliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzySliderUITests.m; sourceTree = "<group>"; };
+		364BF5A7208E31B200E43212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364BF5B3208E348A00E43212 /* LzySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzySlider.h; sourceTree = "<group>"; };
+		364BF5B4208E348A00E43212 /* LzySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzySlider.m; sourceTree = "<group>"; };
+		364BF5B6208E37B800E43212 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		364BF5B7208E37B800E43212 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		364BF5BA208E3A8200E43212 /* ThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbView.h; sourceTree = "<group>"; };
+		364BF5BB208E3A8200E43212 /* ThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbView.m; sourceTree = "<group>"; };
+		364BF5BC208E3A8200E43212 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		364BF5BD208E3A8200E43212 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		364BF5C2208E3B6C00E43212 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		364BF5C3208E3B6C00E43212 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		6F58363BAED39448DF4EB643 /* Pods-LzySlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LzySlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider.release.xcconfig"; sourceTree = "<group>"; };
+		902D3E63F9922838B00F72B9 /* Pods_LzySlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LzySlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA9496750A42BA1CCA2B79D /* Pods-LzySlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LzySlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		364BF57B208E31B200E43212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C61CBA00A706D7443E273A7 /* Pods_LzySlider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364BF593208E31B200E43212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364BF59E208E31B200E43212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD2757A2E0FEA9D6A608141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				902D3E63F9922838B00F72B9 /* Pods_LzySlider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		364BF575208E31B200E43212 = {
+			isa = PBXGroup;
+			children = (
+				364BF580208E31B200E43212 /* LzySlider */,
+				364BF599208E31B200E43212 /* LzySliderTests */,
+				364BF5A4208E31B200E43212 /* LzySliderUITests */,
+				364BF57F208E31B200E43212 /* Products */,
+				427D3F083FE9CC0BAE00AD75 /* Pods */,
+				0AD2757A2E0FEA9D6A608141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		364BF57F208E31B200E43212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				364BF57E208E31B200E43212 /* LzySlider.app */,
+				364BF596208E31B200E43212 /* LzySliderTests.xctest */,
+				364BF5A1208E31B200E43212 /* LzySliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364BF580208E31B200E43212 /* LzySlider */ = {
+			isa = PBXGroup;
+			children = (
+				364BF5C1208E3B6C00E43212 /* Category */,
+				364BF5B9208E3A8200E43212 /* Views */,
+				364BF581208E31B200E43212 /* AppDelegate.h */,
+				364BF582208E31B200E43212 /* AppDelegate.m */,
+				364BF584208E31B200E43212 /* ViewController.h */,
+				364BF585208E31B200E43212 /* ViewController.m */,
+				364BF5B3208E348A00E43212 /* LzySlider.h */,
+				364BF5B4208E348A00E43212 /* LzySlider.m */,
+				364BF587208E31B200E43212 /* Main.storyboard */,
+				364BF58A208E31B200E43212 /* Assets.xcassets */,
+				364BF58C208E31B200E43212 /* LaunchScreen.storyboard */,
+				364BF58F208E31B200E43212 /* Info.plist */,
+				364BF590208E31B200E43212 /* main.m */,
+			);
+			path = LzySlider;
+			sourceTree = "<group>";
+		};
+		364BF599208E31B200E43212 /* LzySliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				364BF59A208E31B200E43212 /* LzySliderTests.m */,
+				364BF59C208E31B200E43212 /* Info.plist */,
+			);
+			path = LzySliderTests;
+			sourceTree = "<group>";
+		};
+		364BF5A4208E31B200E43212 /* LzySliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				364BF5A5208E31B200E43212 /* LzySliderUITests.m */,
+				364BF5A7208E31B200E43212 /* Info.plist */,
+			);
+			path = LzySliderUITests;
+			sourceTree = "<group>";
+		};
+		364BF5B9208E3A8200E43212 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				364BF5BA208E3A8200E43212 /* ThumbView.h */,
+				364BF5BB208E3A8200E43212 /* ThumbView.m */,
+				364BF5BC208E3A8200E43212 /* TriangleView.h */,
+				364BF5BD208E3A8200E43212 /* TriangleView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		364BF5C1208E3B6C00E43212 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				364BF5B7208E37B800E43212 /* UIImage+Helper.h */,
+				364BF5B6208E37B800E43212 /* UIImage+Helper.m */,
+				364BF5C2208E3B6C00E43212 /* UIColor+HexString.h */,
+				364BF5C3208E3B6C00E43212 /* UIColor+HexString.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		427D3F083FE9CC0BAE00AD75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBA9496750A42BA1CCA2B79D /* Pods-LzySlider.debug.xcconfig */,
+				6F58363BAED39448DF4EB643 /* Pods-LzySlider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		364BF57D208E31B200E43212 /* LzySlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364BF5AA208E31B200E43212 /* Build configuration list for PBXNativeTarget "LzySlider" */;
+			buildPhases = (
+				15B22FB53C82EF59ACBF893C /* [CP] Check Pods Manifest.lock */,
+				364BF57A208E31B200E43212 /* Sources */,
+				364BF57B208E31B200E43212 /* Frameworks */,
+				364BF57C208E31B200E43212 /* Resources */,
+				37153C75D7D5EF35A905DFC4 /* [CP] Embed Pods Frameworks */,
+				13FD79F3999CA21C49686D79 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LzySlider;
+			productName = LzySlider;
+			productReference = 364BF57E208E31B200E43212 /* LzySlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		364BF595208E31B200E43212 /* LzySliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364BF5AD208E31B200E43212 /* Build configuration list for PBXNativeTarget "LzySliderTests" */;
+			buildPhases = (
+				364BF592208E31B200E43212 /* Sources */,
+				364BF593208E31B200E43212 /* Frameworks */,
+				364BF594208E31B200E43212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364BF598208E31B200E43212 /* PBXTargetDependency */,
+			);
+			name = LzySliderTests;
+			productName = LzySliderTests;
+			productReference = 364BF596208E31B200E43212 /* LzySliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		364BF5A0208E31B200E43212 /* LzySliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364BF5B0208E31B200E43212 /* Build configuration list for PBXNativeTarget "LzySliderUITests" */;
+			buildPhases = (
+				364BF59D208E31B200E43212 /* Sources */,
+				364BF59E208E31B200E43212 /* Frameworks */,
+				364BF59F208E31B200E43212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364BF5A3208E31B200E43212 /* PBXTargetDependency */,
+			);
+			name = LzySliderUITests;
+			productName = LzySliderUITests;
+			productReference = 364BF5A1208E31B200E43212 /* LzySliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		364BF576208E31B200E43212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lzy;
+				TargetAttributes = {
+					364BF57D208E31B200E43212 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					364BF595208E31B200E43212 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 364BF57D208E31B200E43212;
+					};
+					364BF5A0208E31B200E43212 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 364BF57D208E31B200E43212;
+					};
+				};
+			};
+			buildConfigurationList = 364BF579208E31B200E43212 /* Build configuration list for PBXProject "LzySlider" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 364BF575208E31B200E43212;
+			productRefGroup = 364BF57F208E31B200E43212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364BF57D208E31B200E43212 /* LzySlider */,
+				364BF595208E31B200E43212 /* LzySliderTests */,
+				364BF5A0208E31B200E43212 /* LzySliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364BF57C208E31B200E43212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364BF58E208E31B200E43212 /* LaunchScreen.storyboard in Resources */,
+				364BF58B208E31B200E43212 /* Assets.xcassets in Resources */,
+				364BF589208E31B200E43212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364BF594208E31B200E43212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364BF59F208E31B200E43212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13FD79F3999CA21C49686D79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15B22FB53C82EF59ACBF893C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LzySlider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37153C75D7D5EF35A905DFC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364BF57A208E31B200E43212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364BF5BF208E3A8200E43212 /* TriangleView.m in Sources */,
+				364BF5B5208E348A00E43212 /* LzySlider.m in Sources */,
+				364BF5C4208E3B6C00E43212 /* UIColor+HexString.m in Sources */,
+				364BF586208E31B200E43212 /* ViewController.m in Sources */,
+				364BF591208E31B200E43212 /* main.m in Sources */,
+				364BF5B8208E37B800E43212 /* UIImage+Helper.m in Sources */,
+				364BF583208E31B200E43212 /* AppDelegate.m in Sources */,
+				364BF5BE208E3A8200E43212 /* ThumbView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364BF592208E31B200E43212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364BF59B208E31B200E43212 /* LzySliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364BF59D208E31B200E43212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364BF5A6208E31B200E43212 /* LzySliderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		364BF598208E31B200E43212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364BF57D208E31B200E43212 /* LzySlider */;
+			targetProxy = 364BF597208E31B200E43212 /* PBXContainerItemProxy */;
+		};
+		364BF5A3208E31B200E43212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364BF57D208E31B200E43212 /* LzySlider */;
+			targetProxy = 364BF5A2208E31B200E43212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		364BF587208E31B200E43212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364BF588208E31B200E43212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		364BF58C208E31B200E43212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364BF58D208E31B200E43212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		364BF5A8208E31B200E43212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		364BF5A9208E31B200E43212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		364BF5AB208E31B200E43212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA9496750A42BA1CCA2B79D /* Pods-LzySlider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVNM4ESZ25;
+				INFOPLIST_FILE = LzySlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuzuche.LzySlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		364BF5AC208E31B200E43212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F58363BAED39448DF4EB643 /* Pods-LzySlider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVNM4ESZ25;
+				INFOPLIST_FILE = LzySlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuzuche.LzySlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		364BF5AE208E31B200E43212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVNM4ESZ25;
+				INFOPLIST_FILE = LzySliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuzuche.LzySliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LzySlider.app/LzySlider";
+			};
+			name = Debug;
+		};
+		364BF5AF208E31B200E43212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVNM4ESZ25;
+				INFOPLIST_FILE = LzySliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuzuche.LzySliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LzySlider.app/LzySlider";
+			};
+			name = Release;
+		};
+		364BF5B1208E31B200E43212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVNM4ESZ25;
+				INFOPLIST_FILE = LzySliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuzuche.LzySliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LzySlider;
+			};
+			name = Debug;
+		};
+		364BF5B2208E31B200E43212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVNM4ESZ25;
+				INFOPLIST_FILE = LzySliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuzuche.LzySliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LzySlider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		364BF579208E31B200E43212 /* Build configuration list for PBXProject "LzySlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364BF5A8208E31B200E43212 /* Debug */,
+				364BF5A9208E31B200E43212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364BF5AA208E31B200E43212 /* Build configuration list for PBXNativeTarget "LzySlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364BF5AB208E31B200E43212 /* Debug */,
+				364BF5AC208E31B200E43212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364BF5AD208E31B200E43212 /* Build configuration list for PBXNativeTarget "LzySliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364BF5AE208E31B200E43212 /* Debug */,
+				364BF5AF208E31B200E43212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364BF5B0208E31B200E43212 /* Build configuration list for PBXNativeTarget "LzySliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364BF5B1208E31B200E43212 /* Debug */,
+				364BF5B2208E31B200E43212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 364BF576208E31B200E43212 /* Project object */;
+}
