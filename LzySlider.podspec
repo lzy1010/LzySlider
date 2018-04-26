@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/lzy1010/LzySlider" }
+  s.source       = { :git => "https://github.com/lzy1010/LzySlider" ,:tag => '0.0.1'}
 
   s.source_files  = "LzySlider/LzySlider/*.{h,m}"
 
