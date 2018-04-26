@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/lzy1010/LzySlider" }
 
-  s.source_files  = "LzySlider/LzySlider/LzySlider/*.{h,m}"
+  s.source_files  = "LzySlider/LzySlider/*.{h,m}"
 
   s.framework = 'UIKit'
 
