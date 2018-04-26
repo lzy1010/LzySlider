@@ -217,7 +217,6 @@
 				364BF57B208E31B200E43212 /* Frameworks */,
 				364BF57C208E31B200E43212 /* Resources */,
 				37153C75D7D5EF35A905DFC4 /* [CP] Embed Pods Frameworks */,
-				13FD79F3999CA21C49686D79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,21 +336,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13FD79F3999CA21C49686D79 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		15B22FB53C82EF59ACBF893C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
