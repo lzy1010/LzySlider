@@ -16,7 +16,7 @@
  @param color 填充色
  @return UIImage
  */
-- (UIImage *)imageWithColor:(UIColor *)color;
++ (UIImage *)imageWithColor:(UIColor *)color;
 
 + (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
 
