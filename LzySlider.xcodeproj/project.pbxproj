@@ -18,8 +18,6 @@
 		364BF5BE208E3A8200E43212 /* ThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5BB208E3A8200E43212 /* ThumbView.m */; };
 		364BF5BF208E3A8200E43212 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5BD208E3A8200E43212 /* TriangleView.m */; };
 		364BF5C4208E3B6C00E43212 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BF5C3208E3B6C00E43212 /* UIColor+HexString.m */; };
-		367E09E32090878E00229D93 /* LzySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 367E09E02090878E00229D93 /* LzySlider.m */; };
-		367E09E42090878E00229D93 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 367E09E22090878E00229D93 /* UIImage+Helper.m */; };
 		8C61CBA00A706D7443E273A7 /* Pods_LzySlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902D3E63F9922838B00F72B9 /* Pods_LzySlider.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +61,6 @@
 		364BF5BD208E3A8200E43212 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
 		364BF5C2208E3B6C00E43212 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		364BF5C3208E3B6C00E43212 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
-		367E09DF2090878E00229D93 /* LzySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzySlider.h; sourceTree = "<group>"; };
-		367E09E02090878E00229D93 /* LzySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzySlider.m; sourceTree = "<group>"; };
-		367E09E12090878E00229D93 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
-		367E09E22090878E00229D93 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
 		6F58363BAED39448DF4EB643 /* Pods-LzySlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LzySlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider.release.xcconfig"; sourceTree = "<group>"; };
 		902D3E63F9922838B00F72B9 /* Pods_LzySlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LzySlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA9496750A42BA1CCA2B79D /* Pods-LzySlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LzySlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +125,6 @@
 		364BF580208E31B200E43212 /* LzySlider */ = {
 			isa = PBXGroup;
 			children = (
-				367E09DE2090878E00229D93 /* LzySlider */,
 				364BF5C1208E3B6C00E43212 /* Category */,
 				364BF5B9208E3A8200E43212 /* Views */,
 				364BF581208E31B200E43212 /* AppDelegate.h */,
@@ -183,17 +176,6 @@
 				364BF5C3208E3B6C00E43212 /* UIColor+HexString.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		367E09DE2090878E00229D93 /* LzySlider */ = {
-			isa = PBXGroup;
-			children = (
-				367E09DF2090878E00229D93 /* LzySlider.h */,
-				367E09E02090878E00229D93 /* LzySlider.m */,
-				367E09E12090878E00229D93 /* UIImage+Helper.h */,
-				367E09E22090878E00229D93 /* UIImage+Helper.m */,
-			);
-			path = LzySlider;
 			sourceTree = "<group>";
 		};
 		427D3F083FE9CC0BAE00AD75 /* Pods */ = {
@@ -361,10 +343,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LzySlider/Pods-LzySlider-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LzySlider/LzySlider.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LzySlider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,9 +368,7 @@
 				364BF586208E31B200E43212 /* ViewController.m in Sources */,
 				364BF591208E31B200E43212 /* main.m in Sources */,
 				364BF583208E31B200E43212 /* AppDelegate.m in Sources */,
-				367E09E32090878E00229D93 /* LzySlider.m in Sources */,
 				364BF5BE208E3A8200E43212 /* ThumbView.m in Sources */,
-				367E09E42090878E00229D93 /* UIImage+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

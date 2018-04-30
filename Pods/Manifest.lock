@@ -1,16 +1,20 @@
 PODS:
+  - LzySlider (0.0.1)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - LzySlider (~> 0.0.1)
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - LzySlider
     - Masonry
 
 SPEC CHECKSUMS:
+  LzySlider: 968b31976365ac1e8449cdbed19fa7c9aecb38fa
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 574f10b298916907f258895c76ffeb9ba4d523f9
+PODFILE CHECKSUM: 96188598688b0a8c85412c0e082939bb31f0cf8c
 
 COCOAPODS: 1.5.0

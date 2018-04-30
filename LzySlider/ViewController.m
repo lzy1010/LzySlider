@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "LzySlider.h"
 #import "ThumbView.h"
 #import <Masonry/Masonry.h>
+#import <LzySlider/LzySlider.h>
 
 @interface ViewController ()
 

@@ -6,7 +6,7 @@ target 'LzySlider' do
 use_frameworks!
 
 pod 'Masonry', '~> 1.1.0'
-
+pod 'LzySlider', '~> 0.0.1'
 
 
 end

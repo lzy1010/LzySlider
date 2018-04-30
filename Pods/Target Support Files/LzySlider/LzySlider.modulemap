@@ -1,0 +1,6 @@
+framework module LzySlider {
+  umbrella header "LzySlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
